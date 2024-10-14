@@ -2,17 +2,17 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'mdfitri97', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/portfolio/',
   projects: {
     github: {
-      display: true, // Display GitHub projects?
+      display: false, // Display GitHub projects?
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,54 +33,52 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'ICT Centre MBAS',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Onestop ICT Centre System for Majlis Bandaraya Alor Setar, This system contains multiple module that were used by all department in MBAS.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'http://ictcentre.mbas.gov.my/ictcentre/assets/icons/icon-512x512.png',
+          link: 'http://ictcentre.mbas.gov.my',
         },
         {
-          title: 'Project Name',
+          title: 'eBazar MBAS',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'System for public / merchant / vendor to apply License for selling food in Bazaar Ramadhan under MBAS',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'http://ictcentre.mbas.gov.my/ebazar/assets/icons/icon-512x512.png',
+          link: 'http://ictcentre.mbas.gov.my/ebazar',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Muhd Danial',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
+    linkedin: 'mdfitri97',
+    x: 'mdfitri97',
+    facebook: 'mdfitri97',
+    instagram: 'mdfitri_ohh',
     reddit: '',
     threads: '',
     youtube: '', // example: 'pewdiepie'
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: '',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
